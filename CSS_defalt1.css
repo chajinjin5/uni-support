@@ -1,0 +1,28 @@
+
+.a {
+  background-color: #FFDAB9;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.b{
+  float:right; list-style-type:none;
+}
+.ab li { float: left; }
+.ab li a:hover { background-color: #CD853F; color: white; }
+.ab li { float: left; border-right: solid 1px white; }
+.ab li:last-child { border-right: none; }
+.ab li a:hover:not{
+  background-color: #CD853F;
+  color: white;
+}
+.ab li a, h1  {
+  display: block;
+  background-color: #FFDAB9;
+  color: #000000;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}

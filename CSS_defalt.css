@@ -1,0 +1,4 @@
+legend, fieldset,label, li,ol,ul,html,body, h1
+{margin:0; padding: 0;border: 0 none;}
+li,ol,ul{list-style: none;}
+button  {text-decoration: none;}

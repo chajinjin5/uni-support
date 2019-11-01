@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="CSS_defalt1.css">
+      <style>
+        #d  { background-color: #FF6347; color: white; }
+
+        #d:hover:not(#d) { background-color: #CD853F; color: white; }
+      </style>
+  </head>
+  <body class="ab">
+    <h1>대학 모의 지원</h1>
+    <ul class="a">
+       <li><a href="main.php">Home</a></li>
+
+       <ul class="b">
+         <li><a id="c" href="login.php">로그인</a></li>
+         <li><a id="d"href="signup.html">회원가입</a></li>
+       </ul>
+
+    </ul>
+  </body>
+  
+  <body>
+    <form action="signup.php" method="post">
+<ul class="user">
+
+     <div>
+        <li><label for="nickname">nickname</label>
+          <input type="text" placeholder="Enter nickname" name="nickname" required></li>
+     </div>
+
+     <div>
+        <li><label for="email">E-mail</label>
+         <input type="email" placeholder="Enter E-mail" name="email" required></li>
+     </div>
+
+     <div>
+       <li><label for="password">password</label>
+         <input type="password" placeholder="Enter Password" name="password" required></li>
+     </div>
+
+     <div>
+        <li><label for="pwc">password check</label>
+          <input type="password" placeholder="Enter Re-Password" name="pwc" required></li>
+     </div>
+
+
+      <div>
+         <li><label for="grade">grade</label>
+           <input type="number" min="1" max="9" step="0.01"
+            placeholder="Enter Your Grade" name="grade" required></li>
+      </div>
+
+      <div>
+        <li class="btn"><button type="submit">회원가입</button></li>
+      </div>
+
+</ul>
+
+    </form>
+  </body>
+</html>

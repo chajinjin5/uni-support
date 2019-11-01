@@ -1,0 +1,19 @@
+.d ul {
+			background-color: #FFDAB9;
+			width: 150px;
+			list-style-type: none;
+			margin: 50px;
+			padding: 0;
+		}
+		.d li a {
+			display: block;
+			color: #000000;
+			padding: 8px;
+			text-align: center;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		.d li a.current {
+			background-color: #FF6347;
+			color: white;
+		}
